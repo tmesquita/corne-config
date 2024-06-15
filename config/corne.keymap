@@ -179,6 +179,16 @@
                                           &trans                &trans            &trans        &trans       &trans         &trans
             >;
         };
+
+        w_utility {
+            label = "W Utility";
+            bindings = <
+&bt BT_CLR    &profile_switch_to_windows  &profile_switch_to_mac  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans
+&out OUT_TOG  &trans                      &trans                  &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans                      &trans                  &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                                                  &trans        &trans        &trans          &trans  &trans  &trans
+            >;
+        };
     };
 
     conditional_layers {
@@ -187,6 +197,11 @@
         utility_layer {
             if-layers = <1 2>;
             then-layer = <3>;
+        };
+
+        w_utility {
+            if-layers = <5 6>;
+            then-layer = <7>;
         };
     };
 };
