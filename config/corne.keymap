@@ -95,7 +95,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp GRAVE            &kp Q  &kp W  &kp E     &kp R      &kp T      &kp Y        &kp U            &kp I                   &kp O    &kp P     &kp BSPC
+&kp GRAVE            &kp Q  &kp W  &kp E     &kp R      &kp T      &kp Y        &kp U            &kp I                   &kp O    &kp P     &kp BACKSLASH
 &tap_hold LCTRL TAB  &kp A  &kp S  &kp D     &kp F      &kp G      &kp H        &kp J            &kp K                   &kp L    &kp SEMI  &kp SQT
 &kp LSHFT            &kp Z  &kp X  &kp C     &kp V      &kp B      &kp N        &kp M            &kp COMMA               &kp DOT  &kp FSLH  &hold_tap RSHIFT MINUS
                                    &kp LGUI  &lt 1 DEL  &kp RET    &lt 1 SPACE  &lt 2 BACKSPACE  &tap_hold LEFT_ALT ESC
@@ -112,10 +112,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp DOLLAR       &kp AT       &kp HASH      &kp LBKT              &kp RBKT                 &kp MINUS  &kp N7  &kp N8  &kp N9  &trans    &trans
-&trans  &kp EXCLAMATION  &kp PERCENT  &kp AMPS      &kp EQUAL             &kp PIPE                 &kp BSLH   &kp N4  &kp N5  &kp N6  &trans    &trans
-&trans  &kp CARET        &trans       &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp N0     &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
-                                      &trans        &trans                &trans                   &trans     &trans  &trans
+&trans  &kp DOLLAR       &kp AT       &kp HASH      &kp LBKT              &kp RBKT                 &kp MINUS   &kp N7  &kp N8  &kp N9  &trans    &trans
+&trans  &kp EXCLAMATION  &kp PERCENT  &kp AMPS      &kp EQUAL             &kp PIPE                 &kp PERIOD  &kp N4  &kp N5  &kp N6  &trans    &trans
+&trans  &kp CARET        &trans       &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp N0      &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
+                                      &trans        &trans                &trans                   &trans      &trans  &trans
             >;
 
             label = "Numbols";
