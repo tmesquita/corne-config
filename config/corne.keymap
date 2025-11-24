@@ -96,7 +96,7 @@
 
             bindings = <
 &kp GRAVE            &kp Q  &kp W  &kp E     &kp R      &kp T      &kp Y        &kp U            &kp I                   &kp O    &kp P     &kp BACKSLASH
-&tap_hold LCTRL TAB  &kp A  &kp S  &kp D     &kp F      &kp G      &kp H        &kp J            &kp K                   &kp L    &kp SEMI  &kp SQT
+&tap_hold LCTRL TAB  &kp A  &kp S  &kp D     &kp F      &kp G      &kp A        &kp J            &kp K                   &kp L    &kp SEMI  &kp SQT
 &kp LSHFT            &kp Z  &kp X  &kp C     &kp V      &kp B      &kp N        &kp M            &kp COMMA               &kp DOT  &kp FSLH  &hold_tap RSHIFT MINUS
                                    &kp LGUI  &lt 3 DEL  &kp RET    &lt 1 SPACE  &lt 2 BACKSPACE  &tap_hold LEFT_ALT ESC
             >;
