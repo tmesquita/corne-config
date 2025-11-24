@@ -95,10 +95,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp GRAVE            &kp Q  &kp W  &kp E     &kp R      &kp T      &kp Y        &kp U            &kp I                   &kp O    &kp P     &kp BACKSLASH
-&tap_hold LCTRL TAB  &kp A  &kp S  &kp D     &kp F      &kp G      &kp H        &kp J            &kp K                   &kp L    &kp SEMI  &kp SQT
-&kp LSHFT            &kp Z  &kp X  &kp C     &kp V      &kp B      &kp N        &kp M            &kp COMMA               &kp DOT  &kp FSLH  &hold_tap RSHIFT MINUS
-                                   &kp LGUI  &lt 1 DEL  &kp RET    &lt 1 SPACE  &lt 2 BACKSPACE  &tap_hold LEFT_ALT ESC
+&kp GRAVE            &kp Q  &kp W  &kp E     &kp R      &kp T      &kp Y        &kp U  &kp I                   &kp O    &kp P     &kp BACKSLASH
+&tap_hold LCTRL TAB  &kp A  &kp S  &kp D     &kp F      &kp G      &kp A        &kp J  &kp K                   &kp L    &kp SEMI  &kp SQT
+&kp LSHFT            &kp Z  &kp X  &kp C     &kp V      &kp B      &kp N        &kp M  &kp COMMA               &kp DOT  &kp FSLH  &hold_tap RSHIFT MINUS
+                                   &kp LGUI  &lt 3 DEL  &kp RET    &lt 1 SPACE  &kp D  &tap_hold LEFT_ALT ESC
             >;
 
             label = "Mac";
@@ -151,10 +151,10 @@
 
         windows {
             bindings = <
-&kp GRAVE               &kp Q  &kp W  &kp E             &kp R      &kp T      &kp Y        &kp U            &kp I                   &kp O    &kp P     &kp BSPC
-&tap_hold LEFT_GUI TAB  &kp A  &kp S  &kp D             &kp F      &kp G      &kp H        &kp J            &kp K                   &kp L    &kp SEMI  &kp SQT
-&kp LSHFT               &kp Z  &kp X  &kp C             &kp V      &kp B      &kp N        &kp M            &kp COMMA               &kp DOT  &kp FSLH  &hold_tap RSHIFT MINUS
-                                      &kp LEFT_CONTROL  &lt 5 DEL  &kp RET    &lt 5 SPACE  &lt 6 BACKSPACE  &tap_hold LEFT_ALT ESC
+&kp GRAVE               &kp Q  &kp W  &kp E             &kp R      &kp T      &kp Y        &kp U  &kp I                   &kp O    &kp P     &kp BSPC
+&tap_hold LEFT_GUI TAB  &kp A  &kp S  &kp D             &kp F      &kp G      &kp H        &kp J  &kp K                   &kp L    &kp SEMI  &kp SQT
+&kp LSHFT               &kp Z  &kp X  &kp C             &kp V      &kp B      &kp N        &kp M  &kp COMMA               &kp DOT  &kp FSLH  &hold_tap RSHIFT MINUS
+                                      &kp LEFT_CONTROL  &lt 7 DEL  &kp RET    &lt 5 SPACE  &kp D  &tap_hold LEFT_ALT ESC
             >;
 
             label = "Windows";
