@@ -183,10 +183,10 @@
         w_utility {
             label = "W Utility";
             bindings = <
-&bt BT_CLR    &profile_switch_to_windows  &profile_switch_to_mac  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans
-&out OUT_TOG  &trans                      &trans                  &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans                      &trans                  &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                                                  &trans        &trans        &trans          &trans  &trans  &trans
+&bt BT_CLR      &profile_switch_to_windows  &profile_switch_to_mac  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans
+&out OUT_TOG    &trans                      &trans                  &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&studio_unlock  &trans                      &trans                  &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                                                    &trans        &trans        &trans          &trans  &trans  &trans
             >;
         };
     };
